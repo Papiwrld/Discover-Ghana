@@ -119,22 +119,18 @@ User needs identified include easy access to destination information, visual con
 
 2.3 Site Map and Navigation Structure
 
-The website follows a flat navigation hierarchy for optimal user experience. As shown in Figure 2.1, all pages are accessible directly from the main navigation menu.
+The website follows a flat navigation hierarchy for optimal user experience. All pages are accessible directly from the main navigation menu.
 
-Figure 2.1: Website Site Map
-
-The site map illustrates the planned website structure with the Home page serving as the central hub. From the Home page, users can navigate directly to four main sections: Destinations, Culture, Gallery, and Contact. Each page is also accessible from any other page through the persistent navigation bar.
+The planned website structure features the Home page serving as the central hub. From the Home page, users can navigate directly to four main sections: Destinations, Culture, Gallery, and Contact. Each page is also accessible from any other page through the persistent navigation bar.
 
 Navigation features include a persistent navigation bar across all pages, mobile-responsive hamburger menu for smaller screens, active page highlighting in navigation, footer with quick links to all pages, and breadcrumb navigation on internal pages.
 
 
 2.4 Page Structure and Layout
 
-Each page follows a consistent structure for user familiarity. As illustrated in Figure 2.2, the standard page layout includes a navigation bar at the top, followed by a page header or hero section, main content area, call-to-action section, and footer.
+Each page follows a consistent structure for user familiarity. The standard page layout includes a navigation bar at the top, followed by a page header or hero section, main content area, call-to-action section, and footer.
 
-Figure 2.2: Standard Page Layout Structure
-
-The layout structure shown in Figure 2.2 ensures users can easily navigate and find information across all pages. The Home page features a full-screen hero section with statistics, about section, featured destinations grid, and culture preview. The Destinations page includes filter buttons and three categorized sections for Historical Sites, Nature and Wildlife, and Beaches. The Culture page contains festival showcases, traditional crafts, music and dance sections, and cuisine highlights. The Gallery page features category filter buttons, an image grid, and lightbox functionality. The Contact page provides a two-column layout with contact information, form, embedded map, and FAQ section.
+The layout structure ensures users can easily navigate and find information across all pages. The Home page features a full-screen hero section with statistics, about section, featured destinations grid, and culture preview. The Destinations page includes filter buttons and three categorized sections for Historical Sites, Nature and Wildlife, and Beaches. The Culture page contains festival showcases, traditional crafts, music and dance sections, and cuisine highlights. The Gallery page features category filter buttons, an image grid, and lightbox functionality. The Contact page provides a two-column layout with contact information, form, embedded map, and FAQ section.
 
 
 
@@ -144,29 +140,23 @@ CHAPTER 3: DEVELOPMENT PROCESS AND IMPLEMENTATION
 
 3.1 Project File Structure
 
-The project follows a clean, organized file structure that separates concerns and enables easy maintenance. As illustrated in Figure 3.1, the directory structure organizes files by type.
+The project follows a clean, organized file structure that separates concerns and enables easy maintenance. The directory structure organizes files by type.
 
-Figure 3.1: Project Directory Structure
-
-The structure consists of five HTML files in the root directory: index.html, destinations.html, culture.html, gallery.html, and contact.html. The css folder contains the main stylesheet styles.css. The js folder contains main.js for JavaScript functionality. The images folder contains 21 local image assets for the website.
+The structure consists of five HTML files in the root directory: index.html, destinations.html, culture.html, gallery.html, and contact.html. The css folder contains the main stylesheet styles.css. The js folder contains main.js for JavaScript functionality. The images folder contains locally stored image assets for the website.
 
 HTML files are placed in the root directory for clean URLs, while CSS and JavaScript are separated into dedicated folders for maintainability.
 
 
 3.2 HTML Implementation
 
-All HTML documents follow the HTML5 standard with semantic markup. As shown in Figure 3.2, the structural approach includes proper document type declaration, meta tags for character encoding and viewport, SEO meta tags, external stylesheet linking, semantic body structure, and script inclusion.
-
-Figure 3.2: HTML Document Structure
+All HTML documents follow the HTML5 standard with semantic markup. The structural approach includes proper document type declaration, meta tags for character encoding and viewport, SEO meta tags, external stylesheet linking, semantic body structure, and script inclusion.
 
 Key HTML features implemented include semantic elements such as nav, section, footer, and article tags. SEO meta tags improve search visibility. The viewport meta tag enables responsive design. Proper heading hierarchy from h1 to h4 is maintained throughout. All images include alt attributes for accessibility. Form elements include labels and validation attributes.
 
 
 3.3 CSS Styling
 
-The CSS implementation utilizes modern features including CSS Custom Properties, Flexbox, and CSS Grid. As shown in Figure 3.3, CSS variables are used to centralize design tokens.
-
-Figure 3.3: CSS Custom Properties
+The CSS implementation utilizes modern features including CSS Custom Properties, Flexbox, and CSS Grid. CSS variables are used to centralize design tokens.
 
 The color palette is based on Ghana's national colors: gold (#FCD116) as the primary color, green (#006B3F) as secondary, and red (#CE1126) as accent. Neutral colors include dark (#1a1a2e) for backgrounds, light (#f8f9fa) for sections, and white for cards. Typography uses Poppins for headings and Inter for body text, both from Google Fonts.
 
@@ -175,9 +165,7 @@ The CSS architecture includes sections for reset and base styles, custom propert
 
 3.4 JavaScript Functionality
 
-JavaScript adds interactivity and enhances user experience across the website. As shown in Figure 3.4, several modules were implemented.
-
-Figure 3.4: JavaScript Modules
+JavaScript adds interactivity and enhances user experience across the website. Several functional modules were implemented to handle specific features.
 
 The initNavigation module handles mobile menu toggle and scroll-based navbar styling. The initScrollEffects module provides smooth scrolling for anchor links. The initAnimations module uses Intersection Observer for scroll reveal animations. The initGallery module enables category filtering for gallery images. The initLightbox module provides full-size image viewing functionality. The handleFormSubmit module manages contact form validation and submission.
 
@@ -186,9 +174,7 @@ Key implementations include the Intersection Observer API for efficient scroll-t
 
 3.5 Responsive Design
 
-The website implements a mobile-first responsive design approach. As shown in Figure 3.5, responsive breakpoints ensure optimal display across all device sizes.
-
-Figure 3.5: Responsive Breakpoints
+The website implements a mobile-first responsive design approach. Responsive breakpoints ensure optimal display across all device sizes.
 
 For viewports larger than 1024px, the full desktop layout displays with four-column grids and side-by-side content. For viewports between 768px and 1024px, a tablet layout with two-column grids is used. For viewports between 480px and 768px, mobile landscape mode activates with single columns and hamburger menu. For viewports smaller than 480px, mobile portrait mode displays with full-width buttons and compact layouts.
 
@@ -207,18 +193,14 @@ The project was developed using Windows operating system with Visual Studio Code
 
 4.2 Programming Languages
 
-As shown in Figure 4.1, the technology stack consists of three core technologies.
-
-Figure 4.1: Technology Stack
+The technology stack consists of three core technologies.
 
 HTML5 provides the page structure using semantic elements, form validation attributes, and custom data attributes. CSS3 handles styling and layout through custom properties, Flexbox, CSS Grid, media queries, transitions, and animations. JavaScript ES6+ provides interactivity using arrow functions, template literals, Intersection Observer API, and DOM manipulation.
 
 
 4.3 External Resources
 
-As shown in Figure 4.2, external resources enhance the website functionality.
-
-Figure 4.2: External Resources
+External resources enhance the website functionality.
 
 Google Fonts provides the Poppins and Inter typeface families for consistent typography. Font Awesome version 6 provides icons used throughout the site for visual enhancement. Google Maps provides the embedded map functionality on the contact page for location display.
 
@@ -260,11 +242,9 @@ The project demonstrates proficiency in HTML5 semantic markup and structure, CSS
 
 6.2 Achievement of Objectives
 
-As shown in Figure 6.1, all primary objectives have been achieved.
+All primary objectives have been achieved.
 
-Figure 6.1: Objectives Achievement Summary
-
-The objective to design a website with five or more pages was achieved with five complete pages. The objective to apply proper navigation was achieved with persistent navigation and mobile menu. The objective to use manual coding without WYSIWYG tools was achieved throughout development. The objective for responsive design was achieved with mobile-first approach. The objective to deploy to public hosting is pending final submission. The objective to document the development process was achieved with this report.
+The objective to design a website with five or more pages was achieved with five complete pages. The objective to apply proper navigation was achieved with persistent navigation and mobile menu. The objective to use manual coding without WYSIWYG tools was achieved throughout development. The objective for responsive design was achieved with mobile-first approach. The objective to deploy to public hosting was achieved, with the website accessible at https://discovergh.netlify.app/. The objective to document the development process was achieved with this report.
 
 
 
