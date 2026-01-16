@@ -1,4 +1,4 @@
-Akwaaba Ghana Tourism Website
+Discover Ghana Tourism Website
 
 Project Description
 This project is a tourism website developed for the Internet Technology and Web Design course. It showcases various tourist destinations, culture, and heritage of Ghana. The website consists of five responsive pages designed to provide information to potential visitors.

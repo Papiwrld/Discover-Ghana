@@ -1,5 +1,5 @@
 /*
- * Akwaaba Ghana - Main JavaScript
+ * Discover Ghana - Main JavaScript
  * Handles navigation, gallery, lightbox and animations
  */
 
